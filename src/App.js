@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import LocationBox from "./components/location/location";
 import TemperatureAndWeather from "./components/temp/temp";
+import footers from "./components/footer/footer";
 import {backgroundStyleByTemp} from "./components/background/background";
 import Clothes from "./components/clothes/clothes";
 import { loadGoogleScript } from './lib/GoogleLogin';
@@ -144,6 +145,8 @@ function App() {
           </main>
           </div>
         }
+        <footers></footers>
+
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import './background.css'
+import LocationBox from "../location/location";
 
 export function backgroundStyleByTemp(t) {
   if (typeof t != "undefined") {
@@ -18,7 +19,7 @@ export function backgroundStyleByTemp(t) {
     if (t.temp && t.temp <= -1){
       return "app cold"
     }
-    if (t.temp && t.temp <= -20){
+    if (t.temp && t.temp >= -15){
       return "app cold20"
     }
   }
@@ -26,3 +27,5 @@ export function backgroundStyleByTemp(t) {
     return "app"
   }
 }
+
+export default backgroundStyleByTemp();
