@@ -1,0 +1,29 @@
+.app {
+    background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-02/1613405245_106-p-fon-estetika-bezhevii-kollazh-126.jpg');
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease;
+}
+.app.hot {
+    background-image: url('assets/hot3.jpg');
+}
+
+.app.warm20 {
+    background-image: url('assets/norm4.jpg');
+}
+
+.app.warm15 {
+    background-image: url('assets/norm2.jpg');
+}
+
+.app.warm {
+    background-image: url('assets/norm1.jpg');
+}
+
+.app.cold {
+    background-image: url('assets/norm3.jpg');
+}
+
+.app.cold20 {
+    background-image: url('assets/snow1.jpg');
+}

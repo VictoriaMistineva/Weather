@@ -1,0 +1,10 @@
+[
+  {
+    "cold": "A hat that covers the ears, Thermal underwear, a wool sweater or a fleece jacket, a insulated down jacket or a fur coat that covers the hips, Additional warm socks",
+    "hot": "Shorts, T-shirt, Hat, Dress" ,
+    "warm": "T-Shirt, Jeans, Windbreaker, Blouse, Dress",
+    "warm15": "T-shirt, Jeans, Windbreaker, Light Jacket, Hoodie, Raincoat",
+    "zero": "Jacket, Jeans, Sweatshirt, Jacket",
+    "warm1": "Insulated jacket, warm jeans, Sweatshirt, Jacket, Warm boots"
+  }
+]
